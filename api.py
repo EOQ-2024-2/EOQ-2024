@@ -77,4 +77,5 @@ def main():
     # credit usage check
     print(openai.models.with_raw_response.list().headers['OpenAiProxy'])
 
-main()
+if __name__ == "main":
+    main()
